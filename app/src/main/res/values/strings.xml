@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Discovery</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="string_login">Login</string>
+    <string name="string_demo">Demo</string>
+    <string name="string_freetrial">Free Trial</string>
+    <string name="string_username">Username</string>
+    <string name="string_password">Password</string>
+    <string name="string_discovery">The Discovery</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="string_msg_correcteusername">Please enter your username.</string>
+    <string name="string_msg_correctepassword">Please enter your password.</string>
+    <string name="string_msg_network_cantconnect">Network connection failed. Please check your network.</string>
+
+    <!-- Main menu-->
+    <string name="menu_startdisc">Start Discovery On Device</string>
+    <string name="menu_emaildisc">Email Discovery to Contact</string>
+    <string name="menu_search">Search Your Results</string>
+    <string name="menu_tutorial">Type Tutorials</string>
+    <string name="menu_support">Setup and Support</string>
+    <string name="menu_becomeaffiliate">Become an Affiliate</string>
+    <string name="menu_logout">Logout</string>
+    <string name="sendsurvey_mail_subject">Please take a moment to complete this before our next meeting.</string>
+
+
+    <!-- Tutorial-->
+    <string name="title_activity_tutorial">TutorialActivity</string>
+    <string name="string_quickinsight">-Quick Insights-</string>
+    <string name="string_tutorial_mainmenu">Main Menu</string>
+    <string name="string_tutorial_gototraining">Go To Training Site</string>
+    <string name="title_activity_tutorial_detail">TutorialDetailActivity</string>
+    <string name="title_activity_survey_info">SurveyInfoActivity</string>
+
+    <!-- Survey Info-->
+    <string name = "string_surveyinfo_desc">In order to save us time and help me give you highest level of customer service, please complete this 4 minute experience. When  you finish you will be shown a fun fact about your client type.</string>
+    <string name="string_firstname">First Name</string>
+    <string name="string_lastname">Last Name</string>
+    <string name="string_email">Email</string>
+    <string name="string_begindiscovery">Begin Discovery</string>
+
+    <string name="string_msg_correctemail">Please enter the correct email address.</string>
+    <string name="string_msg_correctename">Please enter the correct name.</string>
+    <string name="string_msg_inputemailorname">Please enter the email or name.</string>
+    <string name="title_activity_one_answer">OneAnswerActivity</string>
+    <string name="msg_not_allowed_permission">Not allowed permission</string>
+
+    <string name="string_survey_question_general">Which word appeals to you more?\nThink about what the words mean, not about how they look or sound.</string>
+    <string name="string_survey_question_special">Which answer comes closest to describing how you usually feel or act</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+
+    <!-- Feedback -->
+    <string name="string_feedback_title">How did you like the survey?</string>
+    <string name="string_feedback_rlikeit">Really Liked it</string>
+    <string name="string_feedback_likeit">Liked it</string>
+    <string name="string_feedback_neutral">Neutral</string>
+    <string name="string_feedback_didntlikeit">Didn\'t Liked it</string>
+    <string name="string_feedback_rdidntlikeit">Really Didn\'t Liked it</string>
+    <string name="title_activity_survey_result">SurveyResultActivity</string>
+
+    <!-- Survey Result-->
+    <string name="string_surveyresult_enter">Enter\nPasscode</string>
+    <string name="title_activity_search_result">SearchResultActivity</string>
+
+    <!-- Search Result-->
+    <string name="string_searchresult_description">Enter client name OR email in one of the boxes below to display his or her type.\n\nTap the picture to go to the type\'s quick insight tutorial.</string>
+    <string name="string_searchresult_fullname">Full Name</string>
+    <string name="string_searchresult_emailaddr">Email Address</string>
+    <string name="string_searchresult_findit">Find it!</string>
+    <string name="string_searchresult_type">Type</string>
+    <string name="string_searchresult_correctfullname">Please enter the correct full name.</string>
+    <string name="string_searchresult_correctemail">Please enter the correct email address.</string>
+    <string name="title_activity_demo_step1">DemoStep1Activity</string>
+    <string name="title_activity_end_demo">EndDemoActivity</string>
+
+    <string name="string_letsbegin">Let\'s Begin</string>
+    <string name="title_activity_setup_support">SetupSupportActivity</string>
+    <string name="string_setupsupport_desc">After your customer takes the survey, you have the option of setting a passcode so that your device locks once the survey is complete. This is to prevent use of  your device once the survey is finished. Just input your preferred 4 digit coe and press the "Set Passcode" button to turn on this feature. For any technical issues, send us an email by pressing "Contact Support".</string>
+    <string name="string_setpasscode">Set Passcode</string>
+    <string name="string_contactsupport">Contact Support</string>
+    <string name="string_msg_inputpasscode">Input your passcode first.</string>
+    <string name="string_msg_settedpasscode">Passcode setted.</string>
+</resources>

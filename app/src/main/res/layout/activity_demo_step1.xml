@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.yourdiscovery.discovery.main.demo.DemoStep1Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.83"
+        android:scaleType="centerInside"
+        android:src="@drawable/bg_demostep1"
+        />
+    <!--fake for weight-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.02"
+        android:scaleType="centerInside"
+        />
+
+    <Button android:layout_width="@dimen/_170sdp"
+        android:layout_height="0dp"
+        android:layout_weight="0.13"
+        android:layout_gravity="center"
+        style="@style/BlueButton"
+        android:text="@string/string_letsbegin"
+        android:id="@+id/demo_btn_start"
+        />
+
+    <!--fake-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.02"
+        />
+</LinearLayout>

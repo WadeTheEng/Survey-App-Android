@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/_5sdp"
+    android:paddingBottom="0dp"
+    android:background="@drawable/bg_enddemo"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="com.yourdiscovery.discovery.main.demo.DemoStep1Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:scaleType="centerInside"
+        android:src="@drawable/txt_enddemo"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/demo_fake"
+            />
+
+        <Button android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_48sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_toLeftOf="@id/demo_fake"
+            android:background="@drawable/btn_demoupgrade"
+            android:id="@+id/demo_btn_upgrade"
+            />
+
+        <Button android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_48sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_toRightOf="@id/demo_fake"
+            android:background="@drawable/btn_demolearn"
+            android:id="@+id/demo_btn_learn"
+            />
+        <Button android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_48sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_demohome"
+            android:id="@+id/demo_btn_home"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

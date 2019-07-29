@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yourdiscovery.discovery.main.survey.SurveyResultActivity"
+    android:weightSum="1"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/result_otter"
+        android:layout_weight="0.8"
+        android:scaleType="fitXY"
+        android:id="@+id/survey_result_iv_main"
+        />
+    <TextView android:text="@string/hello_world" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_5sdp"
+        android:gravity="center"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_17sdp"
+        android:layout_weight="0.2"
+        fontPath="fonts/georgia.ttf"
+        android:id="@+id/survey_result_txt_desc"/>
+
+</LinearLayout>

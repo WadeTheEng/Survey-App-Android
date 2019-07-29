@@ -1,0 +1,77 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    tools:context="com.yourdiscovery.discovery.main.survey.FeedbackActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:text="@string/string_feedback_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_20sdp"
+            style="@style/SubTitle" android:id="@+id/feedback_txt_desc"/>
+
+        <Button android:layout_width="@dimen/_220sdp"
+            android:layout_height="@dimen/_62sdp"
+            android:layout_below="@id/feedback_txt_desc"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_centerHorizontal="true"
+            style="@style/BlueButton"
+            android:text="@string/string_feedback_rlikeit"
+            android:id="@+id/feedback_btn_rlike"
+            />
+
+        <Button android:layout_width="@dimen/_220sdp"
+            android:layout_height="@dimen/_62sdp"
+            android:layout_below="@id/feedback_btn_rlike"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_centerHorizontal="true"
+            style="@style/BlueButton"
+            android:text="@string/string_feedback_likeit"
+            android:id="@+id/feedback_btn_likeit"
+            />
+
+        <Button android:layout_width="@dimen/_220sdp"
+            android:layout_height="@dimen/_62sdp"
+            android:layout_below="@id/feedback_btn_likeit"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_centerHorizontal="true"
+            style="@style/BlueButton"
+            android:text="@string/string_feedback_neutral"
+            android:id="@+id/feedback_btn_neutral"
+            />
+
+        <Button android:layout_width="@dimen/_220sdp"
+            android:layout_height="@dimen/_62sdp"
+            android:layout_below="@id/feedback_btn_neutral"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_centerHorizontal="true"
+            style="@style/BlueButton"
+            android:text="@string/string_feedback_didntlikeit"
+            android:id="@+id/feedback_btn_didntlike"
+            />
+
+        <Button android:layout_width="@dimen/_220sdp"
+            android:layout_height="@dimen/_62sdp"
+            android:layout_below="@id/feedback_btn_didntlike"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_centerHorizontal="true"
+            style="@style/BlueButton"
+            android:text="@string/string_feedback_rdidntlikeit"
+            android:id="@+id/feedback_btn_rdidntlike"
+            />
+
+    </RelativeLayout>
+</ScrollView>
+

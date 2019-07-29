@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    tools:context="com.yourdiscovery.discovery.main.SetupSupportActivity">
+
+    <TextView android:text="@string/string_discovery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        style="@style/LogoTitle" android:id="@+id/setupsupport_txt_logo"/>
+    <TextView android:text="@string/string_setupsupport_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setupsupport_txt_logo"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_15sdp"
+        fontPath="fonts/georgia.ttf"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/setupsupport_txt_desc"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:weightSum="5"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@id/setupsupport_txt_desc"
+        android:id="@+id/setupsupport_line1">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_weight="0.35"
+            android:inputType="numberPassword"
+            android:layout_marginTop="@dimen/_55sdp"
+            android:id="@+id/setupsupport_txt_passcode"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_75sdp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:background="@drawable/bg_textfield"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:id="@+id/setupsupport_passcode_txt_1"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_75sdp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:background="@drawable/bg_textfield"
+            android:layout_weight="1"
+            android:editable="false"
+            android:id="@+id/setupsupport_passcode_txt_2"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_75sdp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:background="@drawable/bg_textfield"
+            android:layout_weight="1"
+            android:editable="false"
+            android:id="@+id/setupsupport_passcode_txt_3"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_75sdp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:background="@drawable/bg_textfield"
+            android:layout_weight="1"
+            android:editable="false"
+            android:id="@+id/setupsupport_passcode_txt_4"/>
+
+    </LinearLayout>
+
+    <Button android:layout_width="@dimen/_185sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_below="@id/setupsupport_line1"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_centerHorizontal="true"
+        style="@style/BlueButton"
+        android:text="@string/string_setpasscode"
+        android:id="@+id/setupsupport_btn_setpasscode"
+        />
+    <Button android:layout_width="@dimen/_185sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_below="@id/setupsupport_btn_setpasscode"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_centerHorizontal="true"
+        style="@style/BlueButton"
+        android:text="@string/string_contactsupport"
+        android:id="@+id/setupsupport_btn_contactsupport"
+        />
+</RelativeLayout>

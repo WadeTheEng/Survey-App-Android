@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yourdiscovery.discovery" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".main.LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".main.MainMenuActivity"
+            android:label="@string/title_activity_main_menu" >
+        </activity>
+        <activity
+            android:name=".main.TutorialActivity"
+            android:label="@string/title_activity_tutorial" >
+        </activity>
+        <activity
+            android:name=".main.TutorialDetailActivity"
+            android:label="@string/title_activity_tutorial_detail" >
+        </activity>
+        <activity
+            android:name=".main.survey.SurveyInfoActivity"
+            android:label="@string/title_activity_survey_info" >
+        </activity>
+        <activity
+            android:name=".main.survey.OneAnswerActivity"
+            android:label="@string/title_activity_one_answer" >
+        </activity>
+        <activity
+            android:name=".main.survey.FeedbackActivity"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name=".main.survey.SurveyResultActivity"
+            android:label="@string/title_activity_survey_result" >
+        </activity>
+        <activity
+            android:name=".main.SearchResultActivity"
+            android:label="@string/title_activity_search_result" >
+        </activity>
+        <activity
+            android:name=".main.demo.DemoStep1Activity"
+            android:label="@string/title_activity_demo_step1" >
+        </activity>
+        <activity
+            android:name=".main.demo.EndDemoActivity"
+            android:label="@string/title_activity_end_demo" >
+        </activity>
+        <activity
+            android:name=".main.SetupSupportActivity"
+            android:label="@string/title_activity_setup_support" >
+        </activity>
+    </application>
+
+</manifest>

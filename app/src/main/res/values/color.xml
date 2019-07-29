@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="silver">#d6d7db</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="lblue">#007aff</color>
+    <color name="navy">#000080</color>
+    <color name="gray">#818181</color>
+    <color name="darkgray">#5e6164</color>
+    <color name="black">#000000</color>
+    <color name="textColor">#333333</color>
+    <color name="blackHalfTransparent">#7f000000</color>
+    <color name="news_color">#51cd07</color>
+    <color name="popular_color">#ff264e</color>
+
+    <color name="defaultThemeColor">#ef5024</color>
+    <color name="defaultThemeColorDark">#ac2e0c</color>
+    <color name="window_background">#F5F5F5</color>
+
+    <color name="transparent">#00000000</color>
+
+
+    <color name="facebookColor">#4b6ea9</color>
+    <color name="googleColor">#e76149</color>
+    <color name="twitterColor">#008dcf</color>
+
+</resources>

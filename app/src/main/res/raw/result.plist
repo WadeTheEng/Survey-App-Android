@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>type</key>
+		<string>otter</string>
+		<key>fullname</key>
+		<string>Analytical Otter</string>
+		<key>desc</key>
+		<string>I&apos;m good at interacting with lots of different people and tend to be very good at reading body language.</string>
+		<key>critical</key>
+		<array>
+			<integer>2</integer>
+			<integer>3</integer>
+			<integer>5</integer>
+			<integer>8</integer>
+		</array>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>owl</string>
+		<key>fullname</key>
+		<string>Architect Owl</string>
+		<key>desc</key>
+		<string>I like to compare the product to competitors.</string>
+		<key>critical</key>
+		<array>
+			<integer>2</integer>
+			<integer>4</integer>
+			<integer>6</integer>
+			<integer>8</integer>
+		</array>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>eagle</string>
+		<key>fullname</key>
+		<string>Assertive Eagle</string>
+		<key>desc</key>
+		<string>I&apos;m very straight to the point and will almost always verbally critique the product.</string>
+		<key>critical</key>
+		<array>
+			<integer>2</integer>
+			<integer>3</integer>
+			<integer>5</integer>
+			<integer>7</integer>
+		</array>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>wolf</string>
+		<key>fullname</key>
+		<string>Compassionate Wolf</string>
+		<key>desc</key>
+		<string>I sometimes appear cool and reserved, but I&apos;m actually warm, friendly and personality focused. I have a holistic, long-term view.</string>
+		<key>critical</key>
+		<array>
+			<integer>1</integer>
+			<integer>4</integer>
+			<integer>6</integer>
+			<integer>7</integer>
+		</array>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>tiger</string>
+		<key>fullname</key>
+		<string>Efficient Tiger</string>
+		<key>desc</key>
+		<string>I&apos;m very straight to the point and will almost always verbally critique the product.</string>
+		<key>critical</key>
+		<array>
+			<integer>2</integer>
+			<integer>3</integer>
+			<integer>6</integer>
+			<integer>7</integer>
+		</array>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>bear</string>
+		<key>fullname</key>
+		<string>Empathetic Bear</string>
+		<key>desc</key>
+		<string>I appear cool and reserved, but I am actually warm, friendly, and personality focused.I am quick to defend others, but not myself.</string>
+		<key>critical</key>
+		<array>
+			<integer>1</integer>
+			<integer>4</integer>
+			<integer>6</integer>
+			<integer>8</integer>
+		</array>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>penguin</string>
+		<key>fullname</key>
+		<string>Helpful Penguin</string>
+		<key>desc</key>
+		<string>I appear cool and reserved, but I am actually warm, friendly, and personality focused. I prefer hands on activities and hobbies.</string>
+		<key>critical</key>
+		<array>
+			<integer>1</integer>
+			<integer>4</integer>
+			<integer>5</integer>
+			<integer>8</integer>
+		</array>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>raven</string>
+		<key>fullname</key>
+		<string>Innovative Raven</string>
+		<key>desc</key>
+		<string>I&apos;m very good at playing devil&apos;s advocate and can easily weigh many pros and cons.</string>
+		<key>critical</key>
+		<array>
+			<integer>2</integer>
+			<integer>3</integer>
+			<integer>6</integer>
+			<integer>8</integer>
+		</array>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>dolphin</string>
+		<key>fullname</key>
+		<string>Insightful Dolphin</string>
+		<key>desc</key>
+		<string>I do not like pressure to conform and always have an incredibly diverse group of friends.</string>
+		<key>critical</key>
+		<array>
+			<integer>1</integer>
+			<integer>3</integer>
+			<integer>6</integer>
+			<integer>7</integer>
+		</array>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>bulldog</string>
+		<key>fullname</key>
+		<string>Logical Bulldog</string>
+		<key>desc</key>
+		<string>I really need occasional quiet time with my hobbies.</string>
+		<key>critical</key>
+		<array>
+			<integer>2</integer>
+			<integer>4</integer>
+			<integer>5</integer>
+			<integer>8</integer>
+		</array>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>labrador</string>
+		<key>fullname</key>
+		<string>Loyal Labrador</string>
+		<key>desc</key>
+		<string>I like keeping it light and friendly and hate being overwhelmed with details.</string>
+		<key>critical</key>
+		<array>
+			<integer>1</integer>
+			<integer>3</integer>
+			<integer>5</integer>
+			<integer>7</integer>
+		</array>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>fox</string>
+		<key>fullname</key>
+		<string>Playful Fox</string>
+		<key>desc</key>
+		<string>I need stimulation with anything that engages the senses and I love a fast pace.</string>
+		<key>critical</key>
+		<array>
+			<integer>1</integer>
+			<integer>3</integer>
+			<integer>5</integer>
+			<integer>8</integer>
+		</array>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>turtle</string>
+		<key>fullname</key>
+		<string>Practical Turtle</string>
+		<key>desc</key>
+		<string>I become suspicious of anyone who appears overly enthusiastic.</string>
+		<key>critical</key>
+		<array>
+			<integer>2</integer>
+			<integer>4</integer>
+			<integer>5</integer>
+			<integer>7</integer>
+		</array>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>kangaroo</string>
+		<key>fullname</key>
+		<string>Protective Kangaroo</string>
+		<key>desc</key>
+		<string>I sometimes appear cool and reserved, but I am actually warm, friendly and personality focused. I love taking care of my family and family rituals.</string>
+		<key>critical</key>
+		<array>
+			<integer>1</integer>
+			<integer>4</integer>
+			<integer>5</integer>
+			<integer>7</integer>
+		</array>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>lion</string>
+		<key>fullname</key>
+		<string>Social Lion</string>
+		<key>desc</key>
+		<string>I like keeping it light and friendly and hate being overwhelmed with details.</string>
+		<key>critical</key>
+		<array>
+			<integer>1</integer>
+			<integer>3</integer>
+			<integer>6</integer>
+			<integer>8</integer>
+		</array>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>panther</string>
+		<key>fullname</key>
+		<string>Visionary Panther</string>
+		<key>desc</key>
+		<string>I am incredibly private about personal information and dislike invasions of personal space.</string>
+		<key>critical</key>
+		<array>
+			<integer>2</integer>
+			<integer>4</integer>
+			<integer>6</integer>
+			<integer>7</integer>
+		</array>
+	</dict>
+</array>
+</plist>
